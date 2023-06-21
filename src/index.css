@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.963);
+  padding: 20px;
+}
+
+.card img {
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+.card-container {
+  display: flex;
+  gap: 20px; 
+  justify-content: center;
+}
